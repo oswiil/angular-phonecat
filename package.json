@@ -11,9 +11,14 @@
     "angular-resource": "1.8.x",
     "angular-route": "1.8.x",
     "bootstrap": "3.3.x",
+    "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-jshint": "^3.0.0",
+    "grunt-contrib-qunit": "^5.0.1",
+    "grunt-contrib-uglify": "^5.0.1",
     "grunt-contrib-watch": "^1.1.0",
-    "jquery": "^3.6.0"
+    "jit-grunt": "0.10.0",
+    "jquery": "^3.6.0",
+    "time-grunt": ""
   },
   "devDependencies": {
     "angular-mocks": "1.8.x",
@@ -41,6 +46,7 @@
     "update-webdriver": "webdriver-manager update",
     "preprotractor": "npm run update-webdriver",
     "protractor": "protractor e2e-tests/protractor.conf.js",
-        "gruntfile": "./Gruntfile.js"
+    "gruntfile": "./Gruntfile.js",
+    "build": "grunt"
   }
 }
